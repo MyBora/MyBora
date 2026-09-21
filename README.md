@@ -12,7 +12,7 @@ Short descriptions are below, and I am happy to give access on request.
 
 **[usequar.com](https://usequar.com)** · live in production · private repo · TypeScript, PL/pgSQL
 
-A restaurant menu that rearranges itself from how that venue's own tables order,
+My latest and the only in-production project. A restaurant menu that rearranges itself from how that venue's own tables order,
 and measures whether doing so actually earns money.
 
 - **Guest side:** scan at the table, order from a phone. No app, no login, no
@@ -35,11 +35,20 @@ and measures whether doing so actually earns money.
 Stack: Next.js (App Router, React Server Components), Supabase / Postgres,
 Vercel, Tailwind, Zod, Telegram Bot API.
 
+## Boreai — Instagram customer service for small businesses
+
+Private repo · workflow automation
+
+Went live with 2 customers, after a review of Meta restrictions and not being a tech provider for Meta was too risky, the project delayed until the requirements for being a Tech Provider for Meta are fullfilled. Around-the-clock automated replies in the owner's own voice for boutiques,
+salons and restaurants, built on Instagram messaging and n8n workflows. The system answers the questions of the clients' behalf; by booking appointments, remembering past conversations, comprehending voice messages from clients' customers and also can see the images sent on instagram plus working with a vector database for the clients' products (such as clothing butiques' clothing inventory), and pulling the infos from the inventory if needed / asked by the customer from instagram. Beyond the automation itself, I wrote the system's data-protection documentation:
+data flows, retention periods, third-party processors, user rights, a breach
+procedure, and the client onboarding handbook.
+
 ## NEFES — a retention brain for pilates studios
 
 Private repo · Python
 
-Sits on top of a studio's existing system: remembers every member, shows who is
+Not a commercial one. Did to teach myself some python and deterministic if's. Sits on top of a studio's existing system: remembers every member, shows who is
 drifting away and why, and drafts the message the owner sends.
 
 - The risk engine is plain deterministic Python with **no LLM**, deliberately:
@@ -50,20 +59,6 @@ drifting away and why, and drafts the message the owner sends.
 - The owner approves and sends from their own channel; the system never sends
   on its own.
 - Health notes are encrypted at rest (Fernet) to meet Turkish data-protection law.
-
-## Boreai — Instagram customer service for small businesses
-
-Private repo · workflow automation
-
-Around-the-clock automated replies in the owner's own voice for boutiques,
-salons and restaurants, built on Instagram messaging and n8n workflows. Beyond
-the automation itself, I wrote the system's data-protection documentation:
-data flows, retention periods, third-party processors, user rights, a breach
-procedure, and the client onboarding handbook.
-
-## Coursework
-
-Autonomous racing assignments in C.
 
 ---
 
