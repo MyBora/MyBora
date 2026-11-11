@@ -10,7 +10,7 @@ Short descriptions are below, and I am happy to give access on request.
 
 ## Quarr — a menu that learns to sell
 
-**[usequar.com](https://usequar.com)** · live in production · private repo · TypeScript, PL/pgSQL
+**[quarr.app](https://quarr.app)** · live in production · private repo · TypeScript, PL/pgSQL
 
 My latest and the only in-production project. A restaurant menu that rearranges itself from how that venue's own tables order,
 and measures whether doing so actually earns money.
